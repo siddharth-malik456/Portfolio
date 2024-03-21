@@ -1,0 +1,14 @@
+.box:hover {
+  transform: scale(1.25) translateY(-15px);
+}
+
+.box:has(+ .box:hover),
+.box:hover + .box {
+  transform: scale(1.1) translateY(-8px);
+  animation-duration: 500;
+}
+
+.box:active {
+  transform: translateY(-45px) scale(1.1);
+  transition: transform 0.3s ease;
+}
