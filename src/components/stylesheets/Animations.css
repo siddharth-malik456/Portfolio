@@ -7,8 +7,21 @@
   transform: scale(1.1) translateY(-8px);
   animation-duration: 500;
 }
-
 .box:active {
   transform: translateY(-45px) scale(1.1);
   transition: transform 0.3s ease;
 }
+
+/* .cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid #16a085;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+} */

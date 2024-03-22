@@ -13,11 +13,11 @@ function Navbar() {
   const [light, setLight] = useState(true);
   const [sound, setSound] = useState(true);
   return (
-    <div className="flex border rounded-full px-4 py-2 gap-3 transform duration-300 hover:scale-110">
+    <div className="flex rounded-full bg-[#262626] px-4 py-2 gap-3 transform duration-300 hover:scale-110">
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
-            <div>
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
+            <div className="">
               <Image
                 src="icons/home_icon.svg"
                 width={50}
@@ -34,7 +34,7 @@ function Navbar() {
       </TooltipProvider>
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/projects_icon.svg"
@@ -52,7 +52,7 @@ function Navbar() {
       </TooltipProvider>
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/work_experience_icon.svg"
@@ -70,7 +70,7 @@ function Navbar() {
       </TooltipProvider>
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/skills_mode_icon.svg"
@@ -88,7 +88,7 @@ function Navbar() {
       </TooltipProvider>
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/github_icon.svg"
@@ -107,7 +107,7 @@ function Navbar() {
 
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/linkedin_icon.svg"
@@ -126,7 +126,7 @@ function Navbar() {
 
       <TooltipProvider>
         <Tooltip>
-          <TooltipTrigger className="bg-[#efefef] rounded-full transform duration-300 box">
+          <TooltipTrigger className="bg-[#1B1B1B] rounded-full transform duration-300 box">
             <div>
               <Image
                 src="icons/contact_me_icon.svg"
@@ -146,7 +146,7 @@ function Navbar() {
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger
-            className="bg-[#efefef] rounded-full transform duration-300 box"
+            className="bg-[#1B1B1B] rounded-full transform duration-300 box"
             onClick={() => {
               setLight(!light);
             }}
@@ -173,7 +173,7 @@ function Navbar() {
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger
-            className="bg-[#efefef] rounded-full transform duration-300 box"
+            className="bg-[#1B1B1B] rounded-full transform duration-300 box"
             onClick={() => {
               setSound(!sound);
             }}

@@ -1,11 +1,10 @@
-import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
-import { Inter, Manrope } from "next/font/google";
+import { Inter } from "next/font/google";
+import { useRef } from "react";
 import "./globals.css";
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
-const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope.className} bg-black`}>
+      <body className={inter.className}>
         {children}
         <div className="flex justify-center">
           <div className="absolute bottom-8">
